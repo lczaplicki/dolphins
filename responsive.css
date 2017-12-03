@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, Verdana, sans-serif;
+  color: #afcdff;
+  font-size: 45;
+    text-align: center;
+  width: 90%;
+  margin: 0 auto; /*This centers the body content */
+background-color: #f7f986
+
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 20%;
+
+}
+
+#content {
+  overflow: auto; /*makes a scroll bar for much enjoyments*/
+}
+
+#nav, #feature, #footer {
+  margin: 1%;
+}
+
+.column1, .column2, .column3 {
+  font-family: Arial, Verdana, sans-serif;
+  color: #afcdff;
+  font-size: 45;
+    text-align: center;
+  width: 31.3%; /*thirsds*/
+  float: left;
+  margin: 1%;
+}
+
+.column3 {
+  margin-right: 0;
+}
+
+li {
+  display: inline; /*horizontal nav*/
+  padding: 0.5em;
+}
+
+#nav, #footer{
+  background-color: #ffffff;
+  padding: 0.5em 0;
+}
+
+#feature, .column1, .column2, .column3 {
+  height: 10em;
+  margin-bottom: 1em;
+  background-color: #ffffff;
+}
